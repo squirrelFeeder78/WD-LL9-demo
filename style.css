@@ -1,5 +1,5 @@
 body {
-  font-family: 'Metal Mania', cursive;
+  font-family: "Metal Mania", cursive;
   background-color: black;
   color: white;
   text-align: center;
@@ -7,7 +7,8 @@ body {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #e63946;
 }
 
@@ -47,4 +48,53 @@ li {
 #countdown {
   font-size: 1.2rem;
   margin-top: 10px;
+}
+
+#hero-section {
+  width: 100vw;
+  height: 100vh;
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #1f1f1f 60%, #e63946 100%);
+  box-sizing: border-box;
+}
+
+.hero-container {
+  position: relative;
+  width: auto;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container h2 {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 90%;
+  color: #fff;
+  background: rgba(230, 57, 70, 0.8);
+  padding: 16px 8px;
+  border-radius: 10px;
+  font-size: 2rem;
+  z-index: 2;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+#hero-img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 0;
+  box-shadow: 0 4px 24px rgba(230, 57, 70, 0.3);
+  border: 3px solid #e63946;
+  background: #1f1f1f;
 }

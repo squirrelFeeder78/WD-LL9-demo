@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Skullcapz Dev Lab</title>
-  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>🎸 Welcome to Skullcapz Dev Lab</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Skullcapz Dev Lab</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero-section">
+      <div class="hero-container">
+        <h2>Feel the Power of Metal – Join the Skullcapz Tour!</h2>
+        <img
+          src="img/guns and roses.png"
+          alt="Skullcapz Band Hero"
+          id="hero-img"
+        />
+      </div>
+    </section>
 
-  <!-- Setlist Generator -->
-  <section id="setlist-section">
-    <h2>🔥 Setlist Generator</h2>
-    <button id="generateSetlist">Generate Setlist</button>
-    <ul id="setlist"></ul>
-  </section>
+    <h1>🎸 Welcome to Skullcapz Dev Lab</h1>
 
-  <!-- Countdown Timer (initially hidden) -->
-  <section id="timer-section" class="hidden">
-    <h2>⏳ Countdown to Tour Kickoff</h2>
-    <div id="countdown">Loading...</div>
-  </section>
+    <!-- Setlist Generator -->
+    <section id="setlist-section">
+      <h2>🔥 Setlist Generator</h2>
+      <button id="generateSetlist">Generate Setlist</button>
+      <ul id="setlist"></ul>
+    </section>
 
-  <!-- Team Feature Area -->
-  <section id="team-features">
-    <h2>🛠️ Team Feature Zone</h2>
-    <p>Each team will build one interactive feature below:</p>
+    <!-- Countdown Timer (initially hidden) -->
+    <section id="timer-section" class="hidden">
+      <h2>⏳ Countdown to Tour Kickoff</h2>
+      <div id="countdown">Loading...</div>
+    </section>
 
-    <div id="vipWinner"></div>
-    <div id="fanFavorite"></div>
-    <div id="tourHighlight"></div>
-    <div id="nextTourStop"></div>
-    <div id="emailCheck"></div>
-    <div id="bioToggle"></div>
-  </section>
+    <!-- Team Feature Area -->
+    <section id="team-features">
+      <h2>🛠️ Team Feature Zone</h2>
+      <p>Each team will build one interactive feature below:</p>
 
-  <script src="script.js"></script>
-</body>
+      <div id="vipWinner"></div>
+      <div id="fanFavorite"></div>
+      <div id="tourHighlight"></div>
+      <div id="nextTourStop"></div>
+      <div id="emailCheck"></div>
+      <div id="bioToggle"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
